@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7ff; /* Light sky blue background */
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: #00aaff; /* Sky blue */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Greeting Card Container */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Greeting Card Styles */
+.greeting-card {
+  border: 1px solid #a6dcef; /* Soft blue border */
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 1rem;
+  text-align: center;
+}
+
+/* Card Title */
+.greeting-card h2 {
+  font-size: 1.5rem;
+  color: #0077b6; /* Deep sky blue for title */
+  margin-bottom: 0.5rem;
+}
+
+/* Card Message */
+.greeting-card p {
+  font-size: 1rem;
+  color: #505050; /* Neutral text color */
+}
+
+/* Utility Classes */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
